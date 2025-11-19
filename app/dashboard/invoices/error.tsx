@@ -2,6 +2,7 @@
 
 import { useEffect } from 'react';
 
+//from some reason this error handing is not working when deleting an invoice
 export default function Error({
     error,
     reset,
